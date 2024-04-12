@@ -19,10 +19,10 @@ app.use(cookieParser());
 //   methods:["GET","POST","PUT","DELETE"],
 //   credentials:true,
 // }));
-// app.use(cors({
-// origin:"https://sm-frontend-awez.vercel.app",
-// credentials:true,
-// }))
+app.use(cors({
+origin:"https://sm-frontend-a6k5.vercel.app",
+credentials:true,
+}))
 app.use(cors());
 // app.options('*', cors())
 
